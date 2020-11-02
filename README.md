@@ -21,28 +21,24 @@ Infrastructure as Code enables numerous benefits including;
 - Versioning of your infrastructure - See what your infrastructure was like at a point in time, and the change that have been made.
 - Reusable Code - Separate distinct sets of identical infrastructure can be built from the same code.
 - Code Modularity - Components can be broken down into discrete, composable pieces that be reused in different situations.
-- Shareable Infrastructure - Infrastructure designs can be shared
+- Shareable Infrastructure - Infrastructure designs can be shared in Open Source and Inner Source repositories, to allow others to reuse the same code.
+
+Terraform can take advantage of all of these benefits.
 
 #### Reading Material
 
 - [Docs - Introduction to Terraform](https://www.terraform.io/intro/index.html#infrastructure-as-code)
 - [Blog - Infrastructure as Code in a Private or Public Cloud](https://www.hashicorp.com/blog/infrastructure-as-code-in-a-private-or-public-cloud)
 
-#### Notes
-
-- Describing infrastructure with a high-level syntax.
-- Writing a blueprint of your data, versioning it and treating it as normal code.
-- Re-usable and shareable.
-
-##### Day 0
-
-- Defines your initial infrastructure.
-
-##### Day 1
-
-- OS and application configurations applied after the infrastructure is initially built.
-
 ### 1b. Describe advantages of IaC patterns
+
+Infrastructure as Code allows for several benefitial patterns to be used;
+
+- Service APIs (Application Programming Interfaces) can be consumed to utilise Cloud and On-Premises resources.
+- Trivial to consume elasticly scalable cloud resources repeatedly.
+- Version Control Systems can be used for historical tracking and control of code.
+- Continuous Integration and Continuous Deployment (CI/CD) can be implemented to test and deploy your infrastructure.
+- Code as documentation - Not only does your code deploy the infrastructure, it also describes how it all joins together.
 
 #### Documentation
 
@@ -52,14 +48,6 @@ Infrastructure as Code enables numerous benefits including;
 #### Tutorial
 
 [Introduction to Infrastructure as Code with Terraform | Terraform - HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code)
-
-#### Notes
-
-- Take advantage of API capability of cloud platforms.
-- Infrastructure is elastic, where things may only live for days to weeks.
-- Check into version control for history
-- Automation doable
-- Documentation as the code
 
 ---
 
